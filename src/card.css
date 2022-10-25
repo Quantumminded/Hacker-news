@@ -1,0 +1,41 @@
+@import "index.css";
+
+.card-main-container{
+    width: 300px;
+    height: 320px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--card-background);
+    box-shadow: 5px 5px 8px var(--shadow);
+    border-radius: 6px;
+    margin: 0px 24px 24px 0px;
+}
+
+.card-top{
+margin-bottom: 12px;
+}
+
+.card-title{
+margin-bottom: 10px;
+}
+
+
+.news-card-footer {
+    padding: 12px 0px;
+    display: flex;
+
+}
+
+.news-card-footer-element {
+    padding-right: 12px;
+}
+
+.read-more-section {
+    padding: 16px 0px;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+}
+
