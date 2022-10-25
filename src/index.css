@@ -9,12 +9,12 @@
 }
 
 body {
-  margin: 0;
-
+ 
     font-family: 'Roboto', 'Georgia', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -39,4 +39,10 @@ h3{
 
 p{
   font-size: 1em;
+}
+
+/* news body */
+.news-body{
+  display: flex;
+  flex-direction: row;
 }
