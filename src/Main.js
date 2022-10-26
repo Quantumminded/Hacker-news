@@ -11,8 +11,6 @@ return (
     <SearchBar />
     <div className="news-body">
       <Card />
-      <Card />
-      <Card />
     </div>
     <Pagination />
   </>

@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import "./index.css";
 import "./card.css";
-import Data from "./data.json"
 
 export default function Card() {
 
-    let { hits } = Data;
-    console.log(hits)
-
-    const [newsTitle, setNewsTitle] = useState();
+    const [newsTitle, setNewsTitle] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
   return (
     <div className="card-main-container">
