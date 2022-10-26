@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./index.css";
 import "./card.css";
 import Data from "./data.json"
@@ -17,7 +17,7 @@ export default function Card() {
         <p className="news-card-footer-element">Comment</p>
       </div>
       <div className="read-more-section">
-        <p className="read-more-text">read more > </p>
+        <p className="read-more-text">read more  </p>
       </div>
     </div>
   );
