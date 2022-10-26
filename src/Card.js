@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 import "./card.css";
+import Data from "./data.json"
 
 export default function Card() {
+
+    let { hits } = Data;
   return (
     <div className="card-main-container">
       <div className="card-top">
-        <h2 className="card-title">Title</h2>
+        {hits.map(hit=> (<h2 className="card-title">{hit.title}</h2>))}
         <h3 className="card-author">Author</h3>
       </div>
       <div className="news-card-footer">
