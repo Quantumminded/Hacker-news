@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import SearchBar from "./SearchBar";
 import Card from "./Card_api";
-import Pagination from "./Pagination";
 import ReactDOM from "react-dom";
+import { StoriesContainer } from "./containers/StoriesContainer";
+
 
 
 export default function Main() {
@@ -26,18 +26,20 @@ export default function Main() {
     //   fetchArticles();
     // }, []);
 
- const [stroyIds, setStoryIds] = useState([]);
  
+
 
 return (
   <>
     <div>MAIN</div>
-    <SearchBar />
+
     <div className="news-body">
       {/* <Card newsTitle={newsTitle} author={author} /> */}
-      <Card  />
+      <Card />
     </div>
-    <Pagination />
+
+    {/* testing ground */}
+    <StoriesContainer />
   </>
 );
 }
