@@ -3,7 +3,6 @@ import SearchBar from "./SearchBar";
 // import Card from "./Card";
 import Card from "./Cardluca";
 import Pagination from "./Pagination";
-import ReactDOM from "react-dom";
 import Data from "./data.json"
 
 export default function Main() {
