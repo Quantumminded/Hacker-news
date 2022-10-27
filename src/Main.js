@@ -30,16 +30,15 @@ export default function Main() {
 
 
 return (
-  <>
-    <div>MAIN</div>
+  <div>
+
+      {/* <Card newsTitle={newsTitle} author={author} /> */}
+      {/* <Card /> */}
 
     <div className="news-body">
-      {/* <Card newsTitle={newsTitle} author={author} /> */}
-      <Card />
+      <StoriesContainer />
     </div>
-
     {/* testing ground */}
-    <StoriesContainer />
-  </>
+  </div>
 );
 }

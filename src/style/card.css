@@ -1,9 +1,22 @@
 @import "index.css";
 
+.news-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.news-body>*{
+    flex: 1 1 1;
+    margin-bottom: 64px;
+}
+
 .card-main-container{
     width: 300px;
-    height: 320px;
-    padding: 16px;
+    height: 100%;
+    padding: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,6 +32,10 @@ margin-bottom: 12px;
 
 .card-title{
 margin-bottom: 10px;
+}
+
+.card-author {
+    font-weight: 400;
 }
 
 
@@ -37,5 +54,12 @@ margin-bottom: 10px;
     display: flex;
     text-align: right;
     justify-content: flex-end;
+}
+
+.read-more-text {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-text);
 }
 

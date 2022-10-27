@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.css";
-import "./card.css";
+import "./style/index.css";
+import "./style/card.css";
 
 
 export default function Card(props) {
