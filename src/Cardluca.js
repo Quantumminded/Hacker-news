@@ -17,7 +17,8 @@ export default function Card (promps) {
         <p className="news-card-footer-element"> {promps.art.num_comments} 💬</p>
       </div>
       <div className="read-more-section">
-        <p className="read-more-text">read more  </p>
+    
+      <a href={promps.art.url} target="_black"><p className="read-more-text">read more ...</p></a>
       </div>
     </div>
   );
