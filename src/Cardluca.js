@@ -13,8 +13,8 @@ export default function Card (promps) {
         <h3 className="card-author">{promps.art.author}</h3>
       </div>
       <div className="news-card-footer">
-        <p className="news-card-footer-element">{promps.art.points}</p>
-        <p className="news-card-footer-element">{promps.art.num_comments}</p>
+        <p className="news-card-footer-element">{promps.art.points} ❤️</p>
+        <p className="news-card-footer-element"> {promps.art.num_comments} 💬</p>
       </div>
       <div className="read-more-section">
         <p className="read-more-text">read more  </p>
