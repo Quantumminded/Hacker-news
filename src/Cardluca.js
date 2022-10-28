@@ -3,7 +3,7 @@ import "./index.css";
 import "./card.css";
 
 
-export default function Card(promps) {
+export default function Card (promps) {
   
     
   return (
