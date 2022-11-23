@@ -29,4 +29,4 @@ Level 1
 (Bonus) Level 4:
 # Use a library of UI components to create your news site (such as React Semantic UI, Material UI, React Bootstrap, Reactstrap)
 
-Note: You are only allowed to use functional components with hooks for this challenge 
+Note: You are only allowed to use functional components with hooks for this challenge. 
