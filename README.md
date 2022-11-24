@@ -1,6 +1,6 @@
 ⭐️ Hacker News
 
-Hacker News is a social news website focusing on computer science and entrepreneurship. It is funded by the Y Combinator incubator. It’s a popular platform to get your daily dose of tech related stuff.
+Hacker News is a social news website focusing on computer science and entrepreneurship. It is funded by the Y Combinator incubator. It’s a popular platform to get your daily dose of tech related stuff
 You can check it out here: https://news.ycombinator.com/news
 
 
@@ -26,7 +26,7 @@ Level 1
 (Bonus) Level 3:
 # Implement pagination
 
-(Bonus) Level 4:
+(Bonus) Level 4
 # Use a library of UI components to create your news site (such as React Semantic UI, Material UI, React Bootstrap, Reactstrap)
 
 Note: You are only allowed to use functional components with hooks for this challenge. 
