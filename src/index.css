@@ -10,10 +10,11 @@
 
 body {
  
-    font-family: 'Roboto', 'Georgia', sans-serif;
+  font-family: 'Roboto', 'Georgia', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: lightblue;
+  background-color:lavender;
+  margin: 0;
 }
 
 
@@ -24,18 +25,23 @@ code {
 
 h1, h2, h3, h4, h5, h6, p{
   margin: 0px;
+  
 }
 
 h1{
- font-size: 2em;
+ font-size: 3.1em;
+color: black;
+
 }
 
 h2{
   font-size: 1.5em;
+  
 }
 
 h3{
-  font-size: 1.25em;
+  font-size: 1em;
+  color: #808080;
 }
 
 p{
@@ -48,37 +54,43 @@ p{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  border: 1px solid  gainsboro;
+  opacity: 96%;
+  
+  padding-top: 32px;
 }
 .nav-bar{
   display: flex;
   justify-content:space-between;
-  background-color:var(--card-background);
-  box-shadow: 5px 5px 8px var(--shadow);
-  align-items: center;
-  height: 50px;
+  background-color: var(--card-background);
+  /* padding-top: 12px;
+  padding-bottom: 12px; */
+  padding: 12px 32px;
+  /* background-color:var(--card-background); */
 }
 input[type="search"] {
+
   border: none;
   background: transparent;
-  margin: 0;
+  margin: 12px;
   padding: 7px 8px;
-  font-size: 14px;
+  font-size: 15px;
   color: inherit;
-  border: 2px solid gainsboro;
+  border: 1px solid black;
   border-radius: inherit;
   background-color: var(--card-background);
  
 
 }
 
-button {
+.button {
   text-indent: -999px;
   overflow: hidden;
   width: 40px;
-  height: 32px;
+  height: 34px;
   padding: 0;
   margin: 0;
-  border: 2px solid gainsboro;
+  border: 1px solid black;
   border-radius: 10%;
   background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
   cursor: pointer;

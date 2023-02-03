@@ -30,7 +30,7 @@ console.log(data.hits)
 
             <span className="btn-span"> 
             <input onChange={(e) => setInput(e.target.value)} type="search" placeholder="What are you looking for?"></input>
-            <button onClick={() => search(input)}>Search</button></span>
+            <button className="button" onClick={() => search(input)}>Search</button></span>
             </div>
            
            
