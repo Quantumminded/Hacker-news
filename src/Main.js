@@ -8,18 +8,12 @@ export default function Main() {
     const [inputResults, setInputResults] = useState([]);
 
 
-
-console.log(data.hits)
-
     const search = (topic) => {
         fetch(`http://hn.algolia.com/api/v1/search?query=${topic}`)
             .then((response) => response.json())
             .then((data) => setInputResults(data.hits))
            
             setInput(false)
-
-
-
     }
 
 
@@ -30,7 +24,7 @@ console.log(data.hits)
 
             <span className="btn-span"> 
             <input onChange={(e) => setInput(e.target.value)} type="search" placeholder="What are you looking for?"></input>
-            <button onClick={() => search(input)}>Search</button></span>
+            <button className="button" onClick={() => search(input)}>Search</button></span>
             </div>
            
            
