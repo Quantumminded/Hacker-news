@@ -1,19 +1,22 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Card from "./Cardluca";
-import Pagination from "./Pagination";
+import data from "./data.json"
 
 
 export default function Main() {
-    const [input, setInput] = useState('');
+    const [input, setInput] = useState(true);
     const [inputResults, setInputResults] = useState([]);
 
 
 
+console.log(data.hits)
 
     const search = (topic) => {
         fetch(`http://hn.algolia.com/api/v1/search?query=${topic}`)
             .then((response) => response.json())
             .then((data) => setInputResults(data.hits))
+           
+            setInput(false)
 
 
 
@@ -34,14 +37,16 @@ export default function Main() {
 
             <div className="news-body">
                 {
-                    inputResults ?
-                        inputResults.map((x, index) => (<Card key={index} art={x} />))
+                    input ?
+                   data.hits.map((x, index) => (<Card key={index} art={x} />))
+                    
                         :
-                        <p>Loading</p>
+                        inputResults.map((x, index) => (<Card key={index} art={x} />))
+                        
 
                 }
             </div>
             
         </>
-    );{}
+    );
 }
