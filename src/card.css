@@ -14,7 +14,6 @@
 }
 .card-main-container:hover {
     box-shadow: 4px 6px 12px black;
-    /* color: gray; */
   }
 
 .card-top{
@@ -30,8 +29,6 @@ margin-bottom: 10px;
 .news-card-footer {
     padding: 22px 22px;
     display: flex;
-    /* padding: 22px; */
-
 }
 
 .news-card-footer-element {

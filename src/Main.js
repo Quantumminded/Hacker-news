@@ -8,18 +8,12 @@ export default function Main() {
     const [inputResults, setInputResults] = useState([]);
 
 
-
-console.log(data.hits)
-
     const search = (topic) => {
         fetch(`http://hn.algolia.com/api/v1/search?query=${topic}`)
             .then((response) => response.json())
             .then((data) => setInputResults(data.hits))
            
             setInput(false)
-
-
-
     }
 
 

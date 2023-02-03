@@ -1,5 +1,4 @@
 :root {
-  --primary: rgb(7, 80, 110);
   --primary-text: #444;
   --secondary-text: #666;
   --shadow: #d3d3d3;
@@ -56,17 +55,13 @@ p{
   justify-content: center;
   border: 1px solid  gainsboro;
   opacity: 96%;
-  
   padding-top: 32px;
 }
 .nav-bar{
   display: flex;
   justify-content:space-between;
   background-color: var(--card-background);
-  /* padding-top: 12px;
-  padding-bottom: 12px; */
   padding: 12px 32px;
-  /* background-color:var(--card-background); */
 }
 input[type="search"] {
 
@@ -96,8 +91,6 @@ input[type="search"] {
   cursor: pointer;
   opacity: 0.7;
   background-color: var(--card-background);
-  
-  
 }
 
 button:hover {
