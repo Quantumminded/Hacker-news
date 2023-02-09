@@ -106,3 +106,18 @@ button:hover {
     width: auto;
   }
 }
+
+.footer {
+  display: grid;
+  margin-bottom: 32px;
+  justify-content: center;
+
+}
+
+.footer-text{
+    font-size: 18px;
+}
+
+.footer a{
+  font-weight: 600;
+}
