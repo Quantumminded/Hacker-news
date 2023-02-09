@@ -18,29 +18,52 @@ export default function Main() {
 
 
     return (
-        <>
-            <div className="nav-bar">
-            <span><h1>Hacker News</h1></span>
+      <>
+        <div className="nav-bar">
+          <span>
+            <a href="/">
+              <h1>Hacker News</h1>{" "}
+            </a>
+          </span>
 
-            <span className="btn-span"> 
-            <input onChange={(e) => setInput(e.target.value)} type="search" placeholder="What are you looking for?"></input>
-            <button className="button" onClick={() => search(input)}>Search</button></span>
-            </div>
-           
-           
+          <span className="btn-span">
+            <input
+              onChange={(e) => setInput(e.target.value)}
+              type="search"
+              placeholder="What are you looking for?"
+            ></input>
+            <button className="button" onClick={() => search(input)}>
+              Search
+            </button>
+          </span>
+        </div>
 
-            <div className="news-body">
-                {
-                    input ?
-                   data.hits.map((x, index) => (<Card key={index} art={x} />))
-                    
-                        :
-                        inputResults.map((x, index) => (<Card key={index} art={x} />))
-                        
+        <div className="news-body">
+          {input
+            ? data.hits.map((x, index) => <Card key={index} art={x} />)
+            : inputResults.map((x, index) => <Card key={index} art={x} />)}
+        </div>
 
-                }
-            </div>
-            
-        </>
+        <div>
+            <a
+                href="https://github.com/Quantumminded/Hacker-news"
+                target="_blank"
+            >
+                open-source code
+            </a>
+            by{" "}
+            <a href="https://main--stringhetti.netlify.app/" target="_blank">
+                Luca
+            </a>
+            ,{" "}
+            <a href="https://github.com/Valeprogr" target="_blank">
+                Valetina
+            </a>{" "}
+            and{" "}
+            <a href="https://adaneo6.com/" target="_blank">
+                Ada
+            </a>
+        </div>
+      </>
     );
 }
