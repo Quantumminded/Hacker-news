@@ -37,7 +37,6 @@ export default function Main() {
             : inputResults.map((x, index) => <Card key={index} art={x} />)}
         </div>
 
-<<<<<<< HEAD
         <div className="footer">
           <div className="footer-text">
             <a
@@ -57,23 +56,6 @@ export default function Main() {
             and{" "}
             <a href="https://adaneo6.com/" target="_blank">
               Ada
-=======
-        <div>
-            <a href="https://github.com/Quantumminded/Hacker-news"  rel="noreferrer" target="_blank">
-                open-source code
-            </a>
-            by{" "}
-            <a href="https://main--stringhetti.netlify.app/" target="_blank" rel="noreferrer">
-                Luca
-            </a>
-            ,{" "}
-            <a href="https://github.com/Valeprogr" target="_blank" rel="noreferrer">
-                Valentina
-            </a>{" "}
-            and{" "}
-            <a href="https://adaneo6.com/" target="_blank" rel="noreferrer">
-                Ada
->>>>>>> 89e84f816070524ea95f9005f4e48fa402fa7fea
             </a>
           </div>
         </div>
