@@ -20,7 +20,9 @@ export default function Main() {
     return (
         <>
             <div className="nav-bar">
-            <span><h1>Hacker News</h1></span>
+            <span>
+                <a href="/"><h1>Hacker News</h1> </a>
+            </span>
 
             <span className="btn-span"> 
             <input onChange={(e) => setInput(e.target.value)} type="search" placeholder="What are you looking for?"></input>
@@ -40,6 +42,16 @@ export default function Main() {
 
                 }
             </div>
+
+<br>
+
+
+        <a href="https://github.com/Quantumminded/Hacker-news" target="_blank"
+          >open-source code</a
+        >
+        by <a href="https://main--stringhetti.netlify.app/" target="_blank">Luca</a>, <a href="https://github.com/Valeprogr" target="_blank">Valetina</a> and <a href="https://adaneo6.com/" target="_blank">Ada</a>
+      </p>
+            
             
         </>
     );
