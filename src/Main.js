@@ -56,7 +56,6 @@ export default function Main() {
               Ada
             </a>
           </div>
-        </div>
       </>
     );
 }
