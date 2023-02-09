@@ -37,6 +37,7 @@ export default function Main() {
             : inputResults.map((x, index) => <Card key={index} art={x} />)}
         </div>
 
+
         <div className="open-source">
             <a href="https://github.com/Quantumminded/Hacker-news"  rel="noreferrer" target="_blank">
                 Open-source code
@@ -44,15 +45,17 @@ export default function Main() {
             {" "}by{" "},
             <a href="https://main--stringhetti.netlify.app/" target="_blank" rel="noreferrer">
                 Luca
+
             </a>
             ,{" "}
-            <a href="https://github.com/Valeprogr" target="_blank" rel="noreferrer">
-                Valentina
+            <a href="https://github.com/Valeprogr" target="_blank">
+              Valentina
             </a>{" "}
             and{" "}
-            <a href="https://adaneo6.com/" target="_blank" rel="noreferrer">
-                Ada
+            <a href="https://adaneo6.com/" target="_blank">
+              Ada
             </a>
+          </div>
         </div>
       </>
     );
