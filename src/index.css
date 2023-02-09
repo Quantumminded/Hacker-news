@@ -62,7 +62,6 @@ p{
   justify-content:space-between;
   background-color: var(--card-background);
   padding: 12px 32px;
-  width: 100%;
 }
 input[type="search"] {
 
