@@ -48,11 +48,11 @@ export default function Main() {
 
             </a>
             ,{" "}
-            <a href="https://github.com/Valeprogr" target="_blank">
+            <a href="https://github.com/Valeprogr" target="_blank" rel="noreferrer">
               Valentina
             </a>{" "}
             and{" "}
-            <a href="https://adaneo6.com/" target="_blank">
+            <a href="https://adaneo6.com/" target="_blank" rel="noreferrer">
               Ada
             </a>
           </div>
