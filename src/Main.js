@@ -42,7 +42,7 @@ export default function Main() {
             <a href="https://github.com/Quantumminded/Hacker-news"  rel="noreferrer" target="_blank">
                 Open-source code
             </a>
-            {" "}by{" "},
+            {" "}by{" "}
             <a href="https://main--stringhetti.netlify.app/" target="_blank" rel="noreferrer">
                 Luca
 
