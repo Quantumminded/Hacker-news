@@ -13,14 +13,16 @@ export default function Card (promps) {
         <h3 className="card-author">Write by {promps.art.author}</h3>
       </div>
       <div className="news-card-footer">
-        <p className="news-card-footer-element">{promps.art.points} ❤️</p>
-        <p className="news-card-footer-element"> {promps.art.num_comments} 💬</p>
-      </div>
-      <div className="read-more-section">
-    
-      <a href={promps.art.url} target="_black">
-      <button className="read-more-text-btn">Read More</button>
-      </a>
+        <div className="reaction-section">
+          <p className="reaction">{promps.art.points} ❤️</p>
+          <p className="reaction">
+            {" "}
+            {promps.art.num_comments} 💬
+          </p>
+        </div>
+        <a href={promps.art.url} target="_black">
+          <button className="read-more-text-btn">Read More</button>
+        </a>
       </div>
     </div>
   );
