@@ -4,6 +4,8 @@
   --shadow: #d3d3d3;
   --white: #fff;
   --card-background: #fafafa;
+  --link-text: #43009f;
+  --link-text-hover: #6206e0;
 
 }
 
@@ -105,13 +107,19 @@ button:hover {
 }
 
 a{
-  color: black;
+  color: var(--link-text);
   font-weight: bold;
+  font-weight: 600;
 }
 
 a:active{
-  color: purple;
+  color:var(--link-text-hover);
 }
+
+a:hover {
+  color: var(--link-text-hover);
+}
+
 @media only screen and (max-width: 480px) {
   .nav-bar{
     display: block;
