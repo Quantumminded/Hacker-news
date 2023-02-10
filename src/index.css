@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 h1{
  font-size: 3.1em;
-color: black;
+  color: black;
 
 }
 
@@ -59,12 +59,23 @@ p{
   opacity: 96%;
   padding-top: 32px;
 }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+  .news-body {
+    margin: 0px 20px;
+  }
+}
+
 .nav-bar{
   display: flex;
   justify-content:space-between;
   background-color: var(--card-background);
   padding: 12px 32px;
 }
+
 input[type="search"] {
 
   border: none;
@@ -104,6 +115,7 @@ button:hover {
  text-align: center;
  cursor: pointer;
  margin-bottom: 32px;
+ font-size: 18px;
 }
 
 a{
@@ -120,11 +132,17 @@ a:hover {
   color: var(--link-text-hover);
 }
 
+@media only screen and (max-width: 768px) {
+  .open-source{
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .nav-bar{
     display: block;
     padding: 12px;
     font-size: 18px;
-    width: auto;
+    width: 100%;
   }
 }

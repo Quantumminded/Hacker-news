@@ -19,7 +19,7 @@ export default function Card (promps) {
       <div className="read-more-section">
     
       <a href={promps.art.url} target="_black">
-      <button className="read-more-tex btn">Read More</button>
+      <button className="read-more-text-btn">Read More</button>
       </a>
       </div>
     </div>
