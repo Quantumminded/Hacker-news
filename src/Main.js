@@ -25,7 +25,7 @@ export default function Main() {
               <h1>Hacker News</h1>{" "}
             </a>
           </span>
-        <span className="btn-span"> 
+        <span className="search-container"> 
             <input onChange={(e) => setInput(e.target.value)} onKeyDown={()=> search(input)} type="search" placeholder="What are you looking for?"></input>
             <button type="submit" className="button" onClick={() => search(input)}>Search</button>
         </span>
