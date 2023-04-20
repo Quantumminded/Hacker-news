@@ -14,4 +14,6 @@ https://news.ycombinator.com/news
 
 
 ## Languages
-HTML, CSS, React.js
+- HTML 
+- CSS 
+- React.js
