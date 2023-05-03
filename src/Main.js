@@ -7,7 +7,7 @@ export default function Main() {
     const [input, setInput] = useState(true);
     const [inputResults, setInputResults] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const[postsPerPage, setPostsPerPage] = useState(15)
+    const[postsPerPage] = useState(15)
 
 
     const search = (topic) => {
