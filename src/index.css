@@ -159,3 +159,30 @@ a:hover {
 
   }
 }
+
+/*Pagination*/
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 12px 18px;
+  text-decoration: none;
+  background-color: var(--white);
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 0.2rem;
+}
+
+.pagination a:hover{
+  background-color: rgb(35, 35, 35);
+  color: white;
+  scale: 1.02;
+  cursor: pointer;
+  transition: 0.5s;
+}    
